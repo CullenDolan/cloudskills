@@ -78,7 +78,7 @@
       "t2.micro"    : { "Arch" : "HVM64"  },
       "t2.small"    : { "Arch" : "HVM64"  },
       "t2.medium"   : { "Arch" : "HVM64"  },
-      "t2.large"    : { "Arch" : "HVM64"  },
+      "t2.large"    : { "Arch" : "HVM64"  }
       
     },
 
@@ -88,7 +88,7 @@
       "t2.micro"    : { "Arch" : "NATHVM64"  },
       "t2.small"    : { "Arch" : "NATHVM64"  },
       "t2.medium"   : { "Arch" : "NATHVM64"  },
-      "t2.large"    : { "Arch" : "NATHVM64"  },
+      "t2.large"    : { "Arch" : "NATHVM64"  }
     }
 ,
     "AWSRegionArch2AMI" : {
@@ -300,9 +300,3 @@
     }
   }
 }
-
-© 2008 - 2021, Amazon Web Services, Inc. or its affiliates. All rights reserved.
-
-    Privacy Policy
-    Terms of Use
-
