@@ -1,3 +1,4 @@
+# ask the user for an instance ID and autmoatically shut it down
 import boto3
 
 ec2 = boto3.client('ec2')
