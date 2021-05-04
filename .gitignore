@@ -1,0 +1,19 @@
+# Environments
+venv
+env/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+
+lib/
+lib64/
+
+sdist/
+var/
+wheels/
+share/python-wheels/
