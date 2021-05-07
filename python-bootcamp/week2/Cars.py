@@ -1,7 +1,8 @@
 class Cars():
-    def __init__(self, model, make, year):
+    # assigns values to object propertires
+    def __init__(self,  make, model, year):
+        self.make = make # defining the value does not allow anything to be passed in for this value
         self.model = model
-        self.make = make
         self.year = year
     
 
@@ -18,7 +19,6 @@ class Cars():
         print(self.year)
 
 
-my_cars = Cars("Rivian", "R1T", 2021)
+my_cars = Cars("Rivian","R1T", 2021)
 my_cars.print_model()
-my_cars.print_year()
 my_cars.print_make_and_year()
