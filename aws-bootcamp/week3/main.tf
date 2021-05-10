@@ -25,7 +25,7 @@ resource "aws_instance" "webserver" {
     key_name        = var.key_name
 
     network_interface {
-        network_interface_id = aws_network_interface.nic.ip_address
+        network_interface_id = aws_network_interface.nic.id
         device_index = 0
     }
 
